@@ -7,13 +7,13 @@ operating system .
 
 Specifications of the simulated computer
 ----
-● The CPU address width is 16 bits
-● Physical memory’s address width is 12 bits
-● The page offset is 8 bits.
-● The TLB contains 8 entries.
-● The OS uses the clock algorithm for page replacement
-● The MMU uses FIFO for replacement algorithm
-● The OS resets the r-bit every 20 instructions.
+	The CPU address width is 16 bits
+	Physical memory’s address width is 12 bits
+	The page offset is 8 bits.
+	The TLB contains 8 entries.
+	The OS uses the clock algorithm for page replacement
+	The MMU uses FIFO for replacement algorithm
+	The OS resets the r-bit every 20 instructions.
 
 
 Data Files
@@ -22,11 +22,17 @@ The test files and page files will simulate the various reads and writes to addr
 and the process’ pages of data that the OS must load from the hard drive and put into memory. If a write to memory
 occurs and the OS needs to evict the dirty page, then the OS must write the page back to the file on the hard disk.
 The test file format is:
+
 0
+
 1C85
+
 1
+
 A1B5
+
 8517174
+
 ...
 
 
