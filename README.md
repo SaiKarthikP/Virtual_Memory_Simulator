@@ -45,5 +45,6 @@ true), A hit (0 = false, 1 = true), page number of the evicted page, was that pa
 
 How to run the program
 ----
-Load the program in your preferred Java IDE. Then run Main.java
-When prompted for the file location, simply enter the name of the file. Be sure that the testfile is located in Virtual_Memory_Simulator. 
+1. Load the program in your preferred Java IDE. 
+2. Compile and run Main.java
+3. When prompted for the file location, simply enter the name of the file. Be sure that the testfile is located in Virtual_Memory_Simulator. 
