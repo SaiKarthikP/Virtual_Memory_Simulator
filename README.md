@@ -1,8 +1,7 @@
 VIRTUAL MEMORY SIMULATOR
 ----
 Implementation of a virtual memory simulator. 
-This simulator consists of several important parts: the CPU which contains the memory management unit and the TLB cache , the virtual page table , physical memory , and the
-operating system . 
+This simulator consists of several important parts: the CPU which contains the memory management unit and the TLB cache, the virtual page table, physical memory, and the operating system. 
 
 
 Specifications of the simulated computer
